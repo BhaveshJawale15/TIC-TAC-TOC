@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 2cm;
+}
+
+body{
+    background-color: #F1FFE7;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 11cm;
+    width: 15cm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5cm;
+}
+
+.box{
+    height:3.5cm ;
+    width: 3.5cm;
+    border-radius: 0.2cm;
+    box-shadow: 0 0 1rem rgba(11, 11, 11, 0.513);
+    font-size: 2cm;
+}
