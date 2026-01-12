@@ -34,4 +34,13 @@ body{
     border-radius: 0.2cm;
     box-shadow: 0 0 1rem rgba(11, 11, 11, 0.513);
     font-size: 2cm;
+    background-color: #44CF6C;
+    color: green;
+}
+
+.reset{
+    padding: 0.2cm;
+    font-size: 0.4cm;
+    background-color: #A9FDAC;
+    border-radius: 0.2cm;
 }
