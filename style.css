@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
 }
-h1{
-    font-size: 2cm;
+.heading{
+    font-size: 1.5cm;
 }
 
 body{
@@ -12,15 +12,15 @@ body{
 }
 
 .container{
-    height: 70vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .game{
-    height: 11cm;
-    width: 15cm;
+    height: 10cm;
+    width: 12cm;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -29,8 +29,8 @@ body{
 }
 
 .box{
-    height:3.5cm ;
-    width: 3.5cm;
+    height:3cm ;
+    width: 3cm;
     border-radius: 0.2cm;
     box-shadow: 0 0 1rem rgba(11, 11, 11, 0.513);
     font-size: 2cm;
@@ -43,4 +43,25 @@ body{
     font-size: 0.4cm;
     background-color: #A9FDAC;
     border-radius: 0.2cm;
+}
+
+.New{
+    padding: 0.2cm;
+    font-size: 0.4cm;
+    background-color: #A9FDAC;
+    border-radius: 0.2cm;
+}
+
+.winner{
+    color: #056B1D;
+    font-size: 2cm;
+    height: 3cm;
+}
+
+.massage{
+    color: #056B1D;
+    height: 5cm;
+}
+.hide{
+    display: none
 }
